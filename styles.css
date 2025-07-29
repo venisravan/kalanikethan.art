@@ -845,18 +845,11 @@ body {
         transform: translateY(30px);
     }
     to {
-    .hero-content {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
+        opacity: 1;
+        transform: translateY(0);
     }
-    .hero-text-block {
-        order: 1;
-    }
-    .hero-image-block {
-        order: 2;
-    }
+}
+
 .section-header,
 .class-card,
 .contact-item,
