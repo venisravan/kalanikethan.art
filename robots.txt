@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kalanikethan.art/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow unnecessary files
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /README.md
